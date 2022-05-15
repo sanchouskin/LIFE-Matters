@@ -53,6 +53,14 @@ box-shadow: none;
 
 }
 
+.nav-link{
+
+  margin-right: 5px;
+  width: 20px;
+  text-align: center;
+font-size: 11px;
+}
+
 
 /*Carousel*/
 #carouselExampleControls{
