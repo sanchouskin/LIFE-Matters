@@ -256,13 +256,14 @@ $phone:480px;
     width: 70%;
     position: relative;
     right: 50px;
+    padding-top: 20px;
   }
 
 
 
 [id*="menubutton"]{
   position: relative;
-  left: 340px;
+  left: 300px;
 
 }
 
