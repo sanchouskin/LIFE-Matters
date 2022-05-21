@@ -250,19 +250,21 @@ $phone:480px;
 }
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width:490px) {
   /* For mobile phones: */
   [class*="logo"] {
     width: 70%;
     position: relative;
     right: 50px;
+
   }
 
 
 
 [id*="menubutton"]{
   position: relative;
-  left: 340px;
+  left: 100px;
+  padding-top: 10px;
 
 }
 
@@ -293,6 +295,11 @@ $phone:480px;
 
 [class*="h3"]{
   font-size: 15px;
+}
+
+[class*="column"]{
+  width: 100%;
+
 }
 
 }
