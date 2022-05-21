@@ -174,14 +174,125 @@ h3 {
   display: table;
 }
 
+$desktop:1200px;
+$laptop:992px;
+$tablet:768px;
+$phone:480px;
 
-
-@media only screen and (max-width: 768px) {
+@media all and (max-width: 890px) {
   /* For mobile phones: */
   [class*="logo"] {
-    width: 70%;}
+    width: 50%;
+    position: relative;
+    right: 70px;
+  }
     [id*="myCarousel"]{
       padding-top: 100px;
     }
+[class*="w3-right"]{
+  position: absolute;
+  top:50px;
+  left:330px;
+}
+
+[class*="mission-h1"]{
+  font-size: 30px;
+}
+
+
+}
+
+@media all and (max-width: 831px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 50%;
+    position: relative;
+    right: 60px;
+  }
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+[class*="w3-right"]{
+  position: absolute;
+  top:50px;
+  left:300px;
+}
+
+[class*="mission-h1"]{
+  font-size: 30px;
+}
+
+
+}
+
+@media all and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 50%;
+    position: relative;
+    right: 60px;
+  }
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+[class*="w3-right"]{
+  position: absolute;
+  top:30px;
+  left:250px;
+
+}
+[class*="carousel-inner"]{
+  padding-top: 100px;
+}
+[class*="mission-h1"]{
+  font-size: 30px;
+
+}
+
+
+@media all and (max-width: 480px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 70%;
+    position: relative;
+    right: 50px;
+  }
+
+
+
+[id*="menubutton"]{
+  position: relative;
+  left: 340px;
+
+}
+
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+
+[class*="w3-right"]{
+  position: absolute;
+  top:30px;
+
+}
+
+[id*="Mission"]{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+[class*="mission-h3"]{
+  padding: 0;
+}
+
+[class*="mission-h1"]{
+  font-size: 15px;
+  padding: 0;
+
+}
+
+[class*="h3"]{
+  font-size: 15px;
+}
 
 }
